@@ -1,0 +1,11 @@
+1. Navigate to "server" folder and execute
+
+npm install -g http-server
+
+2. You can start the server by executing:
+
+http-server -a localhost
+
+server will be hosted on: http://localhost:8080 and viewer can be found in http://localhost:8080/index.html
+
+Books can be loaded now by changing 'initialDoc value' in scripts/viewer.js
